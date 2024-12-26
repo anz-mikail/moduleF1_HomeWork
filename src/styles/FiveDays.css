@@ -1,0 +1,16 @@
+.block_info{
+    display: grid;
+}
+
+.days{
+    margin: 15px;
+    text-align: left;
+    border: #120d0f solid 3px;
+    border-radius: 10px;
+    color: #120d0f;
+    background-color: #34bcbc;
+    font-size: 30px;
+    height: 300px;
+    /*width: 200px;*/
+}
+
