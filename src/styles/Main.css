@@ -1,0 +1,15 @@
+main{
+    display: grid;
+    margin: 15px;
+    text-align: left;
+    border: #120d0f solid 3px;
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+.div1{
+    background-color: #9eaea7;
+}
+.div2{
+
+}

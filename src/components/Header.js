@@ -5,7 +5,7 @@ import "../styles/Header.css";
 class Header extends Component {
     render() {
         return (
-            <header>Header</header>
+            <header>Сервис прогноза погоды</header>
         );
     }
 }

@@ -1,13 +1,3 @@
-.City{
-    margin: 15px;
-    text-align: left;
-    border: #120d0f solid 3px;
-    border-radius: 10px;
-    color: #120d0f;
-    background-color: #34bcbc;
-    font-size: 30px;
-}
-
 input{
     border: #120d0f solid 3px;
     margin: 15px;
@@ -16,9 +6,4 @@ input{
     color: #120d0f;
     background-color: #b1baba;
     font-size: 25px;
-}
-
-datalist{
-    font-size: 15px;
-    background-color: #34bcbc;
 }

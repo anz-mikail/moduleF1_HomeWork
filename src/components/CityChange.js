@@ -2,19 +2,16 @@ import React,  {useEffect, useState} from "react";
 import {getCityList} from "./getCityList";
 
 import "../styles/CityChange.css";
-import City_1 from "./City_1";
 
 
 function CityChange ({ onCityChange }){
     const [search, setSearch] = useState("");
     const [cityList, setCityList] = useState([]);
 
-
     const handleChange = (event) => {
         const value = event.target.value;
         setSearch(value);
 
-        // Сообщаем родительскому компоненту о выборе
         if (onCityChange) {
             onCityChange(value);
         }
@@ -35,7 +32,7 @@ function CityChange ({ onCityChange }){
         <div className={'City'}>
             <input
                 type="search"
-                placeholder="Поиск города"
+                placeholder="Выберите город"
                 list="datalistOptions"
                 value={search}
                 onChange={handleChange}

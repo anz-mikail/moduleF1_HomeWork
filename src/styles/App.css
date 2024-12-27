@@ -1,15 +1,5 @@
-/*div {*/
-/*    background-color: orange;*/
-/*    color: black;*/
-/*    margin: 20px;*/
-/*    padding: 0;*/
-/*}*/
-h1 {
-    text-align: center;
-    color: #4e0e0e;
-    background: aqua;
-    margin: 0;
-    padding: 10px;
+Header {
+    display: grid;
 }
 
 
