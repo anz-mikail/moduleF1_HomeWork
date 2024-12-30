@@ -1,0 +1,11 @@
+.FiveDayTable {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-rows: auto ;
+    text-align: center;
+}
+.FiveDayTable div {
+    margin: 10px;
+    border: #647a7a solid 2px;
+    border-radius: 10px;
+}

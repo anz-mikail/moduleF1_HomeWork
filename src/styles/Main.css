@@ -1,5 +1,6 @@
 main{
-    display: grid;
+    display: flex;
+    flex-direction: column;
     margin: 15px;
     text-align: left;
     border: #120d0f solid 3px;
@@ -7,9 +8,4 @@ main{
     font-size: 25px;
 }
 
-.div1{
-    background-color: #9eaea7;
-}
-.div2{
 
-}

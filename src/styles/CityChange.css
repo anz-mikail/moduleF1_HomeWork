@@ -1,9 +1,17 @@
 input{
-    border: #120d0f solid 3px;
-    margin: 15px;
-    text-align: left;
+    border: #120d0f solid 2px;
+    margin: 10px;
     border-radius: 10px;
     color: #120d0f;
     background-color: #b1baba;
-    font-size: 25px;
+    width: 95%;
+}
+.City {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    background-color: #9eaea7;
+}
+.City p{
+    color: #4e0e0e;
+    margin: 10px;
 }
